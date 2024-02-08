@@ -1,0 +1,11 @@
+.main-footer {
+  background-color: var(--cl-black);
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-footer__content {
+  color: var(--cl-grey);
+  text-align: center;
+}

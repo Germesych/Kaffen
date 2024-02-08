@@ -1,0 +1,13 @@
+.idea
+.vscode
+.DS_Store
+.git
+.venv
+.env
+venv
+env
+.python-version
+node_modules
+package-lock.json
+debug.log
+Thumbs.db

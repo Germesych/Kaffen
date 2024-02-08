@@ -1,0 +1,52 @@
+.top-header {}
+// top-header__info
+.top-header__info {
+  background-color: var(--cl-dark);
+  padding: 15px 0;
+  font-weight: 600;
+}
+.opening-hours {
+  text-transform: uppercase;
+}
+.top-social {
+  display: flex;
+  justify-content: center;
+}
+.top-location {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+// top-header__main
+.top-header__main {
+  padding: 30px 0;
+  background-color: var(--cl-dark);
+}
+
+// Menu
+.top-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-menu__list {
+  display: flex;
+  gap: 0 80px;
+}
+.top-menu__items {
+  position: relative;
+
+  &::after {
+    content: "\2615";
+    position: absolute;
+    left: -1.5em;
+  }
+}
+.top-menu__link {
+  color: var(--cl-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}

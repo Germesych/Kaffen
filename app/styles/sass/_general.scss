@@ -1,0 +1,50 @@
+// GENERAL PROJECT STYLES
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: var(--cl-white);
+  background-color: var(--cl-black);
+}
+.w-100 {
+  width: 100%;
+}
+.accent {
+  color: var(--cl-accent);
+}
+.main {
+  flex-grow: 1;
+  min-height: 100%;
+}
+.main-content {
+  flex-grow: 1;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: var(--br-radius);
+  white-space: nowrap;
+}
+
+.btn-accent {
+  color: var(--cl-grey);
+  text-transform: uppercase;
+  background-color: var(--cl-accent);
+}
+
+.btn-black {
+  color: var(--cl-white);
+  text-transform: uppercase;
+  background-color: var(--cl-black);
+}
+
+// flex
+.align-items-center {
+  align-items: center;
+}
