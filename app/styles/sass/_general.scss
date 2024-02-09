@@ -15,11 +15,12 @@ body {
 .main {
   flex-grow: 1;
   min-height: 100%;
+  font-size: 18px;
+  line-height: 1.65;
 }
 .main-content {
   flex-grow: 1;
 }
-
 .btn {
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@ body {
   padding: 14px 32px;
   border-radius: var(--br-radius);
   white-space: nowrap;
+  width: fit-content;
 }
 
 .btn-accent {
@@ -43,8 +45,25 @@ body {
   text-transform: uppercase;
   background-color: var(--cl-black);
 }
+.title {
+  font-size: 35px;
+}
+.subtitle {
+  color: var(--cl-accent-dark);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
 
 // flex
 .align-items-center {
   align-items: center;
+}
+.jc-between {
+  justify-content: space-between;
+}
+
+// indents, paddings
+.p-tb-70 {
+  padding: 70px;
 }
