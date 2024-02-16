@@ -69,3 +69,25 @@ body {
 .p-tb-70 {
   padding: 70px;
 }
+
+// icon
+.comment-icon > svg {
+  width: 18px;
+  fill: var(--cl-grey);
+}
+.date-icon > svg {
+  width: 14px;
+  fill: var(--cl-grey);
+}
+.icon-local {
+  width: 40px;
+  fill: var(--cl-accent);
+}
+.icon-mail {
+  width: 40px;
+  fill: var(--cl-accent);
+}
+.icon-phone {
+  width: 40px;
+  fill: var(--cl-accent);
+}

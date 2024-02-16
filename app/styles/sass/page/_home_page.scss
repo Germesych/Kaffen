@@ -525,3 +525,126 @@
   font-size: 16px;
   color: var(--cl-grey);
 }
+
+// home-news
+.home-news {}
+.title-wrap {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.home-news-content__row {
+  justify-content: space-between;
+  gap: 0 30px;
+  margin-bottom: 60px;
+}
+.home-news-content__col {
+  position: relative;
+  height: 415px;
+  border-radius: var(--br-radius);
+  overflow: hidden;
+}
+.home-news-content__wrap-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  transition: all 0.75s ease-in-out;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(9, 12, 15, 0.96863) 0%, rgba(13, 17, 21, 0.48) 70%, rgba(14, 19, 23, 0) 100%);
+    z-index: 3;
+  }
+}
+.home-news-content__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+.home-news-content__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-news-content__info {
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 3;
+}
+.home-news-content__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.home-news-content__flex {
+  display: flex;
+}
+.home-news-content__wrap {
+  display: flex;
+  align-items: center;
+  color: var(--cl-grey);
+}
+.home-news-content__date {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.home-news-content__icon {
+  display: flex;
+  align-items: center;
+  margin: 0 7px 0 0;
+}
+.home-news-content__comments {
+  font-size: 16px;
+  font-weight: 400;
+}
+.home-news-content__wrap-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// home-booking
+.home-booking {
+  position: relative;
+  height: 235px;
+  background-image: url("../images/dist/cta_bg.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+  }
+}
+.home-booking__content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 30px;
+  height: 235px;
+  z-index: 2;
+}
