@@ -49,4 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
             el: '.home-feedback-swiper-pagination',
         },
     });
+
+    // booking-slider
+    const bookingSlider = new Swiper('.booking-slider', {
+        // Optional parameters
+        direction: 'horizontal',
+        slidesPerView: 4,
+        loop: true,
+        loopAdditionalSlides: 4,
+        loopedSlides: 4,
+        spaceBetween: 0,
+    });
 })
